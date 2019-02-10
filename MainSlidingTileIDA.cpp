@@ -12,6 +12,7 @@
 #include <time.h>
 #include <iomanip>
 #include <math.h>
+#include <string.h>
 
 #include "slidingtile/SlidingTileIDA.h"
 #include "slidingtile/AbstractSLHeuristic.h"
