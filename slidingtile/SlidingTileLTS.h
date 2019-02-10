@@ -77,6 +77,8 @@ class SlidingTileLTS {
 				currentState.reverseAction(*it);
 				//currentState.print();
 			}
+
+			delete actions;
 			//cout << endl << endl;
 		}
 

@@ -5,7 +5,7 @@
 
 #define USE_MD
 #define SQRT_COST
-#define WEIGHT 1
+#define WEIGHT 2
 
 #include <string>
 #include <map>
@@ -32,9 +32,6 @@ int main(int argc, char **argv)
 	SLState::size = atoi(argv[1]);
 	SLState::width = atoi(argv[2]);
 	string inputProblemsFile(argv[3]);
-
-	cout << "# Solving the following problems " << inputProblemsFile << endl << endl;
-	cerr << "# Solving the following problems " << inputProblemsFile << endl << endl;
 
 	SlidingTileLTS * lts = 0;
 	AbstractSLHeuristic * hf = new MDHeuristic();
@@ -119,7 +116,7 @@ int main(int argc, char **argv)
 		totalExpanded += nodesExpanded;
 
 #ifdef COMPACT_OUTPUT
-		cout << setw(15) << cost << setw(15) << (double)(endIda - sIda) / (double)CLOCKS_PER_SEC << setw(15) << nodesExpanded << endl;
+		//cout << setw(15) << cost << setw(15) << (double)(endIda - sIda) / (double)CLOCKS_PER_SEC << setw(15) << nodesExpanded << endl;
 #endif
 
 	}

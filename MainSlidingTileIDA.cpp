@@ -33,9 +33,6 @@ int main(int argc, char **argv)
 	SLState::width = atoi(argv[2]);
 	string inputProblemsFile(argv[3]);
 
-	cout << "# Solving the following problems " << inputProblemsFile << endl << endl;
-	cerr << "# Solving the following problems " << inputProblemsFile << endl << endl;
-
 	SlidingTileIDA * idaStar = 0;
 	AbstractSLHeuristic * hf = new MDHeuristic();
 
@@ -119,7 +116,7 @@ int main(int argc, char **argv)
 		totalExpanded += nodesExpanded;
 
 #ifdef COMPACT_OUTPUT
-		cout << setw(15) << cost << setw(15) << (double)(endIda - sIda) / (double)CLOCKS_PER_SEC << setw(15) << nodesExpanded << endl;
+		//cout << setw(15) << cost << setw(15) << (double)(endIda - sIda) / (double)CLOCKS_PER_SEC << setw(15) << nodesExpanded << endl;
 #endif
 
 	}
