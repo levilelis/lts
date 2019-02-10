@@ -1,0 +1,44 @@
+# Using the following model: 16_sliding_tile_two_level_1000000000
+# Solving the following problems 15_puzzle_1000_2
+
+# Depth        Nodes Expanded Prediction     
+36             148            0              
+38             1158           0              
+40             7036           0              
+42             40713          0              
+44             229548         0              
+46             1239112        0              
+48             6501432        0              
+50             33499518       0              
+# Depth        Nodes Expanded Prediction     
+39             36             0              
+41             222            0              
+43             1735           0              
+45             11167          0              
+47             72237          0              
+49             454318         0              
+51             2794334        0              
+53             16879516       0              
+55             100677666      0              
+57             591940834      0              
+# Depth        Nodes Expanded Prediction     
+42             14             0              
+44             336            0              
+46             3271           0              
+48             30024          0              
+50             249774         0              
+52             1963373        0              
+54             14449852       0              
+# Depth        Nodes Expanded Prediction     
+33             29             0              
+35             384            0              
+37             3292           0              
+39             22726          0              
+41             136974         0              
+43             771091         0              
+# Depth        Nodes Expanded Prediction     
+34             2              0              
+36             65             0              
+38             1369           0              
+40             14370          0              
+42             109852         0              

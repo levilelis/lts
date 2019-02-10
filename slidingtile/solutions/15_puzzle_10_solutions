@@ -1,0 +1,86 @@
+# Using the following model: 16_sliding_tile_two_level_1000000000
+# Solving the following problems 15_puzzle_1000_2
+
+# Depth        Nodes Expanded Prediction     
+36             148            0              
+38             1158           0              
+40             7036           0              
+42             40713          0              
+44             229548         0              
+46             1239112        0              
+48             6501432        0              
+50             33499518       0              
+# Depth        Nodes Expanded Prediction     
+39             36             0              
+41             222            0              
+43             1735           0              
+45             11167          0              
+47             72237          0              
+49             454318         0              
+51             2794334        0              
+53             16879516       0              
+55             100677666      0              
+57             591940834      0              
+# Depth        Nodes Expanded Prediction     
+42             14             0              
+44             336            0              
+46             3271           0              
+48             30024          0              
+50             249774         0              
+52             1963373        0              
+54             14449852       0              
+# Depth        Nodes Expanded Prediction     
+33             29             0              
+35             384            0              
+37             3292           0              
+39             22726          0              
+41             136974         0              
+43             771091         0              
+# Depth        Nodes Expanded Prediction     
+34             2              0              
+36             65             0              
+38             1369           0              
+40             14370          0              
+42             109852         0              
+# Depth        Nodes Expanded Prediction     
+35             1              0              
+37             98             0              
+39             1205           0              
+41             10677          0              
+43             82475          0              
+45             559302         0              
+47             3497153        0              
+# Depth        Nodes Expanded Prediction     
+44             4              0              
+46             129            0              
+48             1427           0              
+50             16318          0              
+52             153491         0              
+54             1334824        0              
+56             10511392       0              
+58             76518992       0              
+60             523847144      0              
+62             3413760180     0              
+# Depth        Nodes Expanded Prediction     
+36             30             0              
+38             271            0              
+40             2390           0              
+42             18067          0              
+44             126019         0              
+46             791443         0              
+48             4663295        0              
+50             26252743       0              
+# Depth        Nodes Expanded Prediction     
+47             614            0              
+49             10077          0              
+51             112876         0              
+53             1060135        0              
+55             8761096        0              
+# Depth        Nodes Expanded Prediction     
+42             327            0              
+44             3127           0              
+46             22451          0              
+48             143241         0              
+50             874152         0              
+52             5165334        0              
+54             29975223       0              
